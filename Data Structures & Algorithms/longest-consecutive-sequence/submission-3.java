@@ -7,7 +7,7 @@ class Solution {
         }
         for (int num : set) {
             if (set.contains(num - 1)) {
-                continue; // this statement makes sure the code only walks on the lowest number in a series if 1 is there when your on 2 you know you could do 1,2. Also keeps O(n)
+                continue; // this statement makes sure the code only walks on the lowest number in a series if 1 is there when your on 2 you know you could do 1,2. Keeps O(n)
             } else {
                 int length = 1;
                 int current = num;
